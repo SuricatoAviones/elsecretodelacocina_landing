@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #e99401;
+  --black: #262626;
+  --white: #FFF;
+  --fuente-principal: 'Caveat', sans-serif;
+  --fuente-secundaria:'Open Sans', sans-serif
+}
+.hero{
+  background-image:  url(../public/img/header.jpg);
+  background-size: cover
+}
+
+
+body {
+  font-family: var(--fuente-principal);
+}
+button{
+
+}
+.font-secundary{
+  font-family: var(--fuente-secundaria);
+}
+
